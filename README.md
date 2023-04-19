@@ -1,6 +1,8 @@
 # Machine Learning Algorithms
 This guide provides an overview of key topics related to machine learning, including common techniques, best practices, and ethical considerations.
 
+![image](https://user-images.githubusercontent.com/1084712/233166243-87c6d427-ed5f-4ea5-afb4-bf95fb1551ba.png)
+**image from LSU (Louisiana State University), https://www.lsu.edu/**
 ## Table of Contents
 - [Supervised Learning](#supervised-learning)
 - [Unsupervised Learning](#unsupervised-learning)
@@ -39,6 +41,41 @@ Gradient Boosting Machines are an ensemble method used for both regression and c
 
 ## Unsupervised Learning
 Unsupervised learning involves training a model on unlabeled data to identify patterns or structures. Common techniques include clustering, dimensionality reduction, and anomaly detection.
+## Unsupervised Learning
+Unsupervised learning involves training a model on unlabeled data to identify patterns or structures. The following are some of the common algorithms used in unsupervised learning:
+
+### Clustering
+Clustering algorithms group similar data points together based on their feature values. There are several clustering techniques, including:
+
+#### k-Means
+k-Means is a simple and widely used clustering algorithm. It aims to partition the data into k clusters, where each data point belongs to the cluster with the nearest mean (centroid). The algorithm iteratively updates the cluster centroids and reassigns data points until convergence.
+
+#### Hierarchical Clustering
+Hierarchical clustering builds a tree-like structure (dendrogram) to represent the nested grouping of data points. There are two main approaches: agglomerative (bottom-up) and divisive (top-down). Agglomerative methods start with each data point as a separate cluster and iteratively merge the closest pairs of clusters until only one cluster remains. Divisive methods start with one cluster containing all data points and iteratively split the clusters until each data point forms its own cluster.
+
+#### DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+DBSCAN is a density-based clustering algorithm that groups data points based on their density in the feature space. It defines a cluster as a dense region of data points separated by areas of lower point density. DBSCAN can find arbitrarily shaped clusters and identify noise points that do not belong to any cluster.
+
+### Dimensionality Reduction
+Dimensionality reduction techniques reduce the number of features in a dataset while preserving its essential structure or relationships. Common methods include:
+
+#### Principal Component Analysis (PCA)
+PCA is a linear dimensionality reduction technique that projects the data onto a lower-dimensional subspace while preserving as much variance as possible. It finds the principal components (orthogonal axes) of the data that capture the maximum amount of variance, and projects the data onto these components.
+
+#### t-Distributed Stochastic Neighbor Embedding (t-SNE)
+t-SNE is a non-linear dimensionality reduction technique that maps high-dimensional data to a lower-dimensional space, while preserving the local structure of the data. It is particularly useful for visualizing complex datasets, as it can reveal hidden patterns or clusters that are difficult to discern in the high-dimensional space.
+
+#### Autoencoders
+Autoencoders are a type of neural network used for dimensionality reduction and feature learning. They consist of an encoder that maps the input data to a lower-dimensional latent space, and a decoder that reconstructs the input data from the latent representation. By minimizing the reconstruction error, autoencoders learn a compressed representation of the input data.
+
+### Anomaly Detection
+Anomaly detection algorithms identify unusual or rare data points that deviate from the majority of the data. Common techniques include:
+
+#### Isolation Forest
+Isolation Forest is an ensemble-based anomaly detection algorithm that builds multiple decision trees. It isolates anomalies by recursively partitioning the data along randomly selected features and values. Anomalies can be isolated more quickly, as they have attribute values that are significantly different from the majority of the data.
+
+#### One-Class Support Vector Machines (OCSVM)
+One-Class SVM is an unsupervised variation of the Support Vector Machines algorithm, used for detecting anomalies. It learns a decision boundary around the normal data points, such that a predefined fraction of data points lie inside the boundary. Data points outside the boundary are considered anomalies.
 
 ## Deep Learning
 Deep learning is a subset of machine learning that leverages artificial neural networks to model complex patterns in large amounts of data. Popular architectures include convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transformers.
