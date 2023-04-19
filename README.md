@@ -40,8 +40,6 @@ Random Forest is an ensemble method that constructs multiple decision trees and 
 Gradient Boosting Machines are an ensemble method used for both regression and classification tasks. They iteratively build a sequence of decision trees, where each tree is trained to correct the errors made by the previous trees in the sequence. The final model is a weighted sum of these trees. GBM uses gradient descent to optimize the weights and minimize the overall loss.
 
 ## Unsupervised Learning
-Unsupervised learning involves training a model on unlabeled data to identify patterns or structures. Common techniques include clustering, dimensionality reduction, and anomaly detection.
-## Unsupervised Learning
 Unsupervised learning involves training a model on unlabeled data to identify patterns or structures. The following are some of the common algorithms used in unsupervised learning:
 
 ### Clustering
