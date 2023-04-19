@@ -1,5 +1,4 @@
-# Machine Learning Developer Expert Guide
-
+# Machine Learning Algorithms
 This guide provides an overview of key topics related to machine learning, including common techniques, best practices, and ethical considerations.
 
 ## Table of Contents
