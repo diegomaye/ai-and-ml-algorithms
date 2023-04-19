@@ -76,7 +76,28 @@ Isolation Forest is an ensemble-based anomaly detection algorithm that builds mu
 One-Class SVM is an unsupervised variation of the Support Vector Machines algorithm, used for detecting anomalies. It learns a decision boundary around the normal data points, such that a predefined fraction of data points lie inside the boundary. Data points outside the boundary are considered anomalies.
 
 ## Deep Learning
-Deep learning is a subset of machine learning that leverages artificial neural networks to model complex patterns in large amounts of data. Popular architectures include convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transformers.
+Deep learning is a subset of machine learning that leverages artificial neural networks to model complex patterns in large amounts of data. The following are some of the popular architectures used in deep learning:
+
+### Convolutional Neural Networks (CNNs)
+Convolutional Neural Networks are designed for processing grid-like data, such as images. They use convolutional layers to scan the input data with small filters, capturing local patterns. CNNs often include pooling layers to reduce spatial dimensions and fully connected layers for classification or regression tasks. They are particularly effective for tasks like image classification, object detection, and semantic segmentation.
+
+### Recurrent Neural Networks (RNNs)
+Recurrent Neural Networks are designed for processing sequential data, such as time series or natural language. They contain recurrent layers that maintain hidden states, allowing them to capture information from previous time steps. RNNs can be used for tasks like language modeling, sentiment analysis, and machine translation. However, they struggle with long-range dependencies due to the vanishing gradient problem.
+
+#### Long Short-Term Memory (LSTM)
+LSTM is a type of RNN that addresses the vanishing gradient problem by using special memory cells and gating mechanisms. These allow LSTMs to retain information over longer sequences and selectively update their hidden states. LSTMs are commonly used in tasks like text generation, speech recognition, and time series forecasting.
+
+#### Gated Recurrent Units (GRUs)
+GRUs are a simplified version of LSTMs that use fewer gating mechanisms, reducing computational complexity. They have been shown to perform comparably to LSTMs on various tasks, though the choice between LSTM and GRU may depend on the specific problem and dataset.
+
+### Transformers
+Transformers are a type of neural network architecture that has become popular in natural language processing and beyond. They are based on the self-attention mechanism, which allows the model to weigh and combine information from all positions in the input sequence, rather than processing it sequentially like RNNs. Transformers have achieved state-of-the-art results on a wide range of tasks, including text classification, machine translation, and question answering.
+
+#### BERT (Bidirectional Encoder Representations from Transformers)
+BERT is a pre-trained transformer model for natural language understanding tasks. It is trained using a masked language modeling objective, which allows it to learn deep contextual representations of words. BERT can be fine-tuned on specific tasks with relatively small amounts of labeled data, achieving high performance with less training time and computational resources.
+
+#### GPT (Generative Pre-trained Transformer)
+GPT is another pre-trained transformer model, primarily focused on language generation tasks. It is trained using a unidirectional language modeling objective and can generate coherent and contextually relevant text given a prompt. GPT has been shown to perform well on a variety of natural language processing tasks, often with minimal task-specific fine-tuning.
 
 ## Model Evaluation and Validation
 It's crucial to evaluate and validate machine learning models to ensure they generalize well to new data. Techniques include cross-validation, precision, recall, F1 score, ROC curve, and confusion matrix analysis.
