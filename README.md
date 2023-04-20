@@ -3,7 +3,7 @@ This guide provides an overview of key topics related to machine learning, inclu
 
 ![image](https://user-images.githubusercontent.com/1084712/233166243-87c6d427-ed5f-4ea5-afb4-bf95fb1551ba.png)
 <p text-style="italic" align="center">
-  image from LSU (Louisiana State University), https://www.lsu.edu/
+  <em>image from LSU (Louisiana State University), https://www.lsu.edu/</em>
 </p>
 
 ## Table of Contents
