@@ -2,6 +2,11 @@
 
 This repository contains a comprehensive guide to various aspects of machine learning, including algorithms, techniques, evaluation, and deployment. It covers the essential concepts, tools, and best practices needed to understand, develop, and deploy machine learning models effectively.
 
+![ai_explained](https://user-images.githubusercontent.com/1084712/233388903-14f7e9cb-4fa3-4984-8c49-f81a622b8938.jpg)
+<p align="center">
+  <em>image from LSU (Louisiana State University) https://www.lsu.edu/</em>
+</p>
+
 ## Contents
 
 1. [Supervised Learning Algorithms](#supervised-learning-algorithms)
